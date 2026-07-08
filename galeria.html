@@ -1,0 +1,81 @@
+﻿<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Galeria | AKI Kielce</title>
+    <meta name="description" content="Galeria restauracji AKI w Kielcach: wnętrze lokalu, okonomiyaki, soba, tempura, matcha i japońskie przystawki.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="AKI strona główna">
+        <img class="brand-logo" src="assets/logo-aki-web.png" alt="Logo AKI">
+        <span class="brand-copy">
+          <strong>AKI</strong>
+          <small>japońska restauracja</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+      <nav class="main-nav" id="main-nav" aria-label="Główna nawigacja">
+        <a href="index.html">Strona Główna</a>
+        <a href="menu.html">Menu</a>
+        <a href="opinie.html">Opinie</a>
+        <a href="galeria.html" aria-current="page">Galeria</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Galeria</p>
+        <h1>Wnętrze, dania i detale AKI.</h1>
+        <p class="lead">Zdjęcia pokazują klimat lokalu, najważniejsze dania i kilka detali z karty. Galeria jest krótsza i bardziej selektywna, żeby łatwiej było obejrzeć ją na telefonie.</p>
+      </section>
+
+      <nav class="section gallery-jump" aria-label="Szybkie przejście po galerii">
+        <a href="#galeria-wnetrze">Wnętrze</a>
+        <a href="#galeria-dania">Dania</a>
+        <a href="#galeria-desery">Desery</a>
+      </nav>
+
+      <section class="section gallery-grid">
+        <figure class="gallery-item wide" id="galeria-wnetrze">
+          <img src="assets/atmosfera-aki.png" alt="Goście przy barze w restauracji AKI w Kielcach" loading="lazy" decoding="async">
+          <figcaption>Wnętrze AKI</figcaption>
+        </figure>
+        <figure class="gallery-item" id="galeria-dania">
+          <img src="assets/okonomiyaki.jpg" alt="Okonomiyaki na białym talerzu" loading="lazy" decoding="async">
+          <figcaption>Okonomiyaki</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="assets/niku-soba-new.jpg" alt="Niku soba w czarnej misce" loading="lazy" decoding="async">
+          <figcaption>Niku soba</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="assets/krewetki.jpg" alt="Chrupiące krewetki na talerzu" loading="lazy" decoding="async">
+          <figcaption>Krewetki</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="assets/tonkatsu.jpg" alt="Tonkatsu z kapustą i sosem" loading="lazy" decoding="async">
+          <figcaption>Tonkatsu</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="assets/przystawki.jpg" alt="Małe talerzyki z ogórkiem i kimchi na drewnianym stole" loading="lazy" decoding="async">
+          <figcaption>Przystawki</figcaption>
+        </figure>
+        <figure class="gallery-item" id="galeria-desery">
+          <img src="assets/matcha-dessert.jpg" alt="Okrągły deser matcha na ciemnym talerzu" loading="lazy" decoding="async">
+          <figcaption>Deser matcha</figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>AKI · plac Wolności 5/3u, 25-367 Kielce</p>
+      <p><a href="tel:+48796636440">796 636 440</a> · wt.-sob. 17:00-21:00</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
